@@ -13,24 +13,33 @@ public class Exemplo001_Scanner {
 //		String x;
 //		x = sc.next(); // Para ler APENAS uma string
 //		System.out.println("Você digitou: " + x);
-//		
+
+		
+		
 //		int y;
 //		y = sc.nextInt(); // Para ler um inteiro
 //		System.out.println("Você digitou: " + y);
-//		
+
+		
+		
 //		double z;
 //		
 //		z = sc.nextDouble(); // Para ler um double
 //		System.out.println("Você digitou: " + z);
-//		
+
+		
+		
+		
 //		char p;
 //		p = sc.next().charAt(0);
 //		System.out.println("Você digitou: " + p);
 		
-//		String a;
+		
+		
+//		String a; // Para ler varios dados na mesma linha separados por espaço
 //		int b;
 //		double c;
-//		// Para ler varios dados na mesma linha separados por espaço
+//
 //		a = sc.next(); 
 //		b = sc.nextInt();
 //		c = sc.nextDouble();
@@ -40,8 +49,10 @@ public class Exemplo001_Scanner {
 //		System.out.println(b);
 //		System.out.println(c);
 		
-//		String s1, s2, s3;
-//		// Para ler um texto com várias palavras ATÉ A QUEBRA DA LINHA
+		
+		
+//		String s1, s2, s3; // Para ler um texto com várias palavras ATÉ A QUEBRA DA LINHA
+//		
 //		s1 = sc.nextLine();
 //		s2 = sc.nextLine();
 //		s3 = sc.nextLine();
@@ -54,9 +65,9 @@ public class Exemplo001_Scanner {
 		
 		int x;
 		String s1, s2, s3;
-		// ATENÇÃO PARA A QUEBRA DE LINHA PENDENTE
+		// ATENÇÃO PARA A QUEBRA DE LINHA PENDENTE!!!
 		x = sc.nextInt();
-		sc.nextLine();
+		sc.nextLine(); // Precisa esse comando para consumir a quebra de linha pendente. (Limpando o buffer de leitura)
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
