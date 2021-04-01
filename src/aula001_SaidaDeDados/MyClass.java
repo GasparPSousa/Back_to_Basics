@@ -31,10 +31,16 @@ public class MyClass {
 		
 		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 		
+		
+		// usar com printf 
+		
 		// %f = ponto flutuante
 		// %d = inteiro
 		// %s = texto
 		// %n = quebra de linha
+		
+		// printf, vc separa as variáveis por vírgula(,)
+		// println, vc separa as variáveis pelo sinal de mais (+)
 		
 	}
 
