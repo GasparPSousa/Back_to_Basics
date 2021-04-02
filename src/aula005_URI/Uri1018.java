@@ -1,4 +1,4 @@
-package aula004_FuncoesMatematicas;
+package aula005_URI;
 
 import java.util.Scanner;
 
