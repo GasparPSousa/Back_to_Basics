@@ -19,15 +19,16 @@ public class Exercicio004 {
 		} 
 		
 		System.out.println("Nomes lidos:");
-		// Sintaxe normal usando variável
+		// Sintaxe normal usando "índice" / variável
 //		for(int i = 0; i < N; i++) {
 //			System.out.println(nomes[i]);
 //		}
 //		
 		
-		// Sintaxe For it usando "apelido"
-		for (String apelido : nomes) {
-			System.out.println(apelido);
+		// Forma alternativa para percorrer uma coleção inteira
+		// Sintaxe For it usando "item" / apelido
+		for (String item : nomes) {
+			System.out.println(item);
 		}
 		
 		sc.close();
